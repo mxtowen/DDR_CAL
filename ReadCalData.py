@@ -64,6 +64,7 @@ def two_hc_abs_string(f, s):
     #s_v = ((s>>7)<<8)
     #s_v += s&0x7F
     #return "0x%08X"%((f_v<<16) + s_v)
+    #change here
     return "0x%08X"%((f << 16) + s)
 
 def get_Byte(text):
