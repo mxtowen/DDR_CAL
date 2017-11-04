@@ -15,7 +15,7 @@ def get_actual():
             try:
                 fp = folder_path + f                
                 if check_file(fp):
-                    text = get_file_context(fp) 
+                    text = get_file_context(fp)
                     file_texts.append(text)
                 else:
                     print 'Check ',f,' Failed!'
